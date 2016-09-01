@@ -1,0 +1,23 @@
+{
+  "name": "github-slack-but",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/westonmiller/githubslackbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/westonmiller/githubslackbot/issues"
+  },
+  "homepage": "https://github.com/westonmiller/githubslackbot#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
