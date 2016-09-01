@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/westonmiller/githubslackbot#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "http-request": "^0.7.0"
   }
 }
