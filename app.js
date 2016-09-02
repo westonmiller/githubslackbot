@@ -41,7 +41,10 @@ app.post('/githubwebhook', function (req, res) {
   }
 
   if (req.body.action === 'closed' && req.body.pull_request.merged) {
-    sendSlackMessage(req, {text: ':merged: ' + req.body.pull_request.html_url});
+    sendSlackMessage(req, {
+      text: ':merged: ' + req.body.pull_request.html_url + ' by ' + req.body.sender.login,
+      username: 'Git Status'
+    });
   }
 
 
