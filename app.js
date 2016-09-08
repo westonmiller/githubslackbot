@@ -42,8 +42,9 @@ app.post('/githubwebhook', function (req, res) {
   }
 
   if (req.body.action === 'closed' && req.body.pull_request.merged) {
+    var authorName = UsersNames[req.body.sender.login] || req.body.sender.login
     sendSlackMessage(req, {
-      text: ':merged: ' + req.body.pull_request.html_url + ' by ' + UsersNames[req.body.sender.login],
+      text: ':merged: ' + req.body.pull_request.html_url + ' by ' + authorName,
       username: 'Git Status'
     });
   }
@@ -72,7 +73,7 @@ function sendSlackMessage(req, message) {
 function getResponse(body) {
 
   var labelColor = '#' + body.label.color;
-  var authorName = UsersNames[body.sender.login];
+  var authorName = UsersNames[body.sender.login] || body.sender.login;
   var authorIcon = body.sender.avatar_url;
   var title = body.pull_request.title + ' #' + body.number;
   var pullRequestURL = body.pull_request.html_url;
