@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var http = require('http-request');
 var Channels = require('./Channels');
+var UsersNames = require('./UsersNames');
 
 var app = express();
 app.use(bodyParser.json());
@@ -42,7 +43,7 @@ app.post('/githubwebhook', function (req, res) {
 
   if (req.body.action === 'closed' && req.body.pull_request.merged) {
     sendSlackMessage(req, {
-      text: ':merged: ' + req.body.pull_request.html_url + ' by ' + req.body.sender.login,
+      text: ':merged: ' + req.body.pull_request.html_url + ' by ' + UsersNames[req.body.sender.login],
       username: 'Git Status'
     });
   }
@@ -71,7 +72,7 @@ function sendSlackMessage(req, message) {
 function getResponse(body) {
 
   var labelColor = '#' + body.label.color;
-  var authorName = body.sender.login;
+  var authorName = UsersNames[body.sender.login];
   var authorIcon = body.sender.avatar_url;
   var title = body.pull_request.title + ' #' + body.number;
   var pullRequestURL = body.pull_request.html_url;
