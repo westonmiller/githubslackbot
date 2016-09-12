@@ -3,16 +3,15 @@ var bodyParser = require('body-parser');
 var http = require('http-request');
 var Channels = require('./Channels');
 var UsersNames = require('./UsersNames');
-var domToImage = require('dom-to-image');
 
 var app = express();
 app.use(bodyParser.json());
 
 app.use('/images', express.static('images'));
 
-// app.get('/', function (req, res) {
-//   res.send('Hello World!');
-// });
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
 
 app.post('/githubwebhook', function (req, res) {
   var options = {
