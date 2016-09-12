@@ -3,9 +3,12 @@ var bodyParser = require('body-parser');
 var http = require('http-request');
 var Channels = require('./Channels');
 var UsersNames = require('./UsersNames');
+var domToImage = require('dom-to-image');
 
 var app = express();
 app.use(bodyParser.json());
+
+app.use('/images', express.static('images'));
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
@@ -91,6 +94,7 @@ function getResponse(body) {
         "title": title,
         "title_link": pullRequestURL,
         "text": text,
+        "image_url": __dirname + '/image/ready.png',
         "ts": Date.now()/1000,
         mrkdwn_in: ['text']
       }
