@@ -92,7 +92,6 @@ function getResponse(body) {
         "author_icon": authorIcon,
         "title": title,
         "title_link": pullRequestURL,
-        "text": text,
         "image_url": 'http://damp-springs-39574.herokuapp.com/images/' + body.label.name.replace(/ /g, '%20') + '.png',
         "ts": Date.now()/1000,
         mrkdwn_in: ['text']
