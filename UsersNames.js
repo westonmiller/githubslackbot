@@ -7,5 +7,6 @@ module.exports = {
 	pipermerriam: 'Piper',
 	nicholasserra: 'Nick',
 	craftninja: 'Emily',
-	crixmadine: 'Nathan'
+	crixmadine: 'Nathan',
+	chrgiersh: 'Chris G'
 }
