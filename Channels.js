@@ -3,7 +3,9 @@ module.exports = {
 	FoundryPlatformConsole: 'https://hooks.slack.com/services/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',
 	DiffBotScraper: 'https://hooks.slack.com/services/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',
 	iSeekMobileIOS: 'https://hooks.slack.com/services/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',
-	Heartbeat2: 'https://hooks.slack.com/services/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',
+	heartbeat2: 'https://hooks.slack.com/services/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',
+	'heartbeat2-services': 'https://hooks.slack.com/services/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',
+	'heartbeat2-ui': 'https://hooks.slack.com/services/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',
 	HumanaPass: 'https://hooks.slack.com/services/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',
 	HumanaPassServer: 'https://hooks.slack.com/services/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'
 }
