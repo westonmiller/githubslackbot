@@ -84,7 +84,7 @@ function getResponse(body) {
 
 
   return {
-    username: 'Git Status',
+    username: 'Git Status - ' + body.repository.name,
     attachments: [
       {
         color: labelColor,
