@@ -8,5 +8,6 @@ module.exports = {
 	nicholasserra: 'Nick',
 	craftninja: 'Emily',
 	crixmadine: 'Nathan',
-	chrgiersh: 'Chris G'
+	chrgiersh: 'Chris G',
+	kclowes: 'Keri'
 }
