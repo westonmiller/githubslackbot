@@ -7,5 +7,10 @@ module.exports = {
 	'heartbeat2-services': 'https://hooks.slack.com/services/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',
 	'heartbeat2-ui': 'https://hooks.slack.com/services/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',
 	HumanaPass: 'https://hooks.slack.com/services/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',
-	HumanaPassServer: 'https://hooks.slack.com/services/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'
+	HumanaPassServer: 'https://hooks.slack.com/services/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',
+	'mock-digital-supply': 'https://hooks.slack.com/services/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',
+	'delta-force-team-d': 'https://hooks.slack.com/services/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',
+	'mock-digital-clinical': 'https://hooks.slack.com/services/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'
+
+
 }
