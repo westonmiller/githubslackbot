@@ -10,7 +10,8 @@ module.exports = {
 	HumanaPassServer: 'https://hooks.slack.com/services/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',
 	'mock-digital-supply': 'https://hooks.slack.com/services/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',
 	'delta-force-team-d': 'https://hooks.slack.com/services/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',
-	'mock-digital-clinical': 'https://hooks.slack.com/services/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'
+	'mock-digital-clinical': 'https://hooks.slack.com/services/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',
+	'mock-bcts': 'https://hooks.slack.com/services/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'
 
 
 }
