@@ -11,7 +11,6 @@ module.exports = {
 	'mock-digital-supply': 'https://hooks.slack.com/services/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',
 	'delta-force-team-d': 'https://hooks.slack.com/services/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',
 	'mock-digital-clinical': 'https://hooks.slack.com/services/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',
-	'mock-bcts': 'https://hooks.slack.com/services/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'
-
-
+	'mock-bcts': 'https://hooks.slack.com/services/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',
+	'mock-aps': 'https://hooks.slack.com/services/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'
 }

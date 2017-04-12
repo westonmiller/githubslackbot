@@ -60,7 +60,6 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 function sendSlackMessage(req, message) {
-
     http.post({
       url: Channels[req.body.repository.name],
       headers: {
