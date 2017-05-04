@@ -13,5 +13,7 @@ module.exports = {
 	'mock-digital-clinical': 'https://hooks.slack.com/services/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',
 	'mock-bcts': 'https://hooks.slack.com/services/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',
 	'mock-aps': 'https://hooks.slack.com/services/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',
-	'mock-aps-react': 'https://hooks.slack.com/services/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'
+	'mock-aps-react': 'https://hooks.slack.com/services/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',
+	'hospitality-ios': 'https://hooks.slack.com/services/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',
+	'hospitality-server': 'https://hooks.slack.com/services/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'
 }
