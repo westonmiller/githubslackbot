@@ -17,6 +17,8 @@ module.exports = {
 	'hospitality-ios': 'https://hooks.slack.com/services/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',
 	'hospitality-server': 'https://hooks.slack.com/services/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',
 	'digital-clinical-server': 'https://hooks.slack.com/services/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',
-	'digital-clinical-client': 'https://hooks.slack.com/services/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'
+	'digital-clinical-client': 'https://hooks.slack.com/services/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',
+	'aps': 'https://hooks.slack.com/services/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',
+	'aps-service': 'https://hooks.slack.com/services/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'
 
 }
