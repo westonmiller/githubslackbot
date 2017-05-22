@@ -19,6 +19,7 @@ module.exports = {
 	'digital-clinical-server': 'https://hooks.slack.com/services/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',
 	'digital-clinical-client': 'https://hooks.slack.com/services/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',
 	'aps': 'https://hooks.slack.com/services/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',
-	'aps-service': 'https://hooks.slack.com/services/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'
+	'aps-service': 'https://hooks.slack.com/services/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',
+	'digital-supply-chain': 'https://hooks.slack.com/services/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'
 
 }
