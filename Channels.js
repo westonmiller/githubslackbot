@@ -20,6 +20,9 @@ module.exports = {
 	'digital-clinical-client': 'https://hooks.slack.com/services/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',
 	'aps': 'https://hooks.slack.com/services/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',
 	'aps-service': 'https://hooks.slack.com/services/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',
-	'digital-supply-chain': 'https://hooks.slack.com/services/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'
+	'digital-supply-chain': 'https://hooks.slack.com/services/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',
+	'trade-finance-client': 'https://hooks.slack.com/services/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',
+	'trade-finance-services': 'https://hooks.slack.com/services/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',
+	'trade-finance-corda': 'https://hooks.slack.com/services/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'
 
 }
