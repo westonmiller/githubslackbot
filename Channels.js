@@ -14,7 +14,7 @@ module.exports = {
 	'mock-bcts': 'https://hooks.slack.com/services/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',
 	'mock-aps': 'https://hooks.slack.com/services/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',
 	'mock-aps-react': 'https://hooks.slack.com/services/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',
-	'hospitality-ios': 'https://hooks.slack.com/services/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',
+	'hospitality-iphone': 'https://hooks.slack.com/services/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',
 	'hospitality-server': 'https://hooks.slack.com/services/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',
 	'digital-clinical-server': 'https://hooks.slack.com/services/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',
 	'digital-clinical-client': 'https://hooks.slack.com/services/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',
@@ -23,6 +23,7 @@ module.exports = {
 	'digital-supply-chain': 'https://hooks.slack.com/services/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',
 	'trade-finance-client': 'https://hooks.slack.com/services/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',
 	'trade-finance-services': 'https://hooks.slack.com/services/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',
-	'trade-finance-corda': 'https://hooks.slack.com/services/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'
-
+	'trade-finance-corda': 'https://hooks.slack.com/services/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',
+	'hospitality-authentication-service': 'https://hooks.slack.com/services/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',
+	'hospitality-ipad': 'https://hooks.slack.com/services/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'
 }
