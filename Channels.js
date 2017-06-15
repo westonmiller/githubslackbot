@@ -26,5 +26,6 @@ module.exports = {
 	'trade-finance-corda': 'https://hooks.slack.com/services/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',
 	'hospitality-authentication-service': 'https://hooks.slack.com/services/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',
 	'hospitality-ipad': 'https://hooks.slack.com/services/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',
-	'hospitality-profiles-service': 'https://hooks.slack.com/services/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'
+	'hospitality-profiles-service': 'https://hooks.slack.com/services/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',
+	'hospitality-location-service': 'https://hooks.slack.com/services/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'
 }
