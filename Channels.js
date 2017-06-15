@@ -27,5 +27,7 @@ module.exports = {
 	'hospitality-authentication-service': 'https://hooks.slack.com/services/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',
 	'hospitality-ipad': 'https://hooks.slack.com/services/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',
 	'hospitality-profiles-service': 'https://hooks.slack.com/services/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',
-	'hospitality-location-service': 'https://hooks.slack.com/services/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'
+	'hospitality-location-service': 'https://hooks.slack.com/services/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',
+	'hospitality-aggregator-service': 'https://hooks.slack.com/services/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',
+	'hospitality-hms-service': 'https://hooks.slack.com/services/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'
 }
