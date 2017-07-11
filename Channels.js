@@ -30,5 +30,6 @@ module.exports = {
 	'hospitality-location-service': 'https://hooks.slack.com/services/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',
 	'hospitality-aggregator-service': 'https://hooks.slack.com/services/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',
 	'hospitality-hms-service': 'https://hooks.slack.com/services/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',
-	'hospitality-dashboard': 'https://hooks.slack.com/services/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'
+	'hospitality-dashboard': 'https://hooks.slack.com/services/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',
+	'aps-mock-data-server': 'https://hooks.slack.com/services/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'
 }
