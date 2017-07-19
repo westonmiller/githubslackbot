@@ -33,5 +33,6 @@ module.exports = {
 	'hospitality-dashboard': 'https://hooks.slack.com/services/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',
 	'aps-mock-data-server': 'https://hooks.slack.com/services/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',
 	'trade-finance-dlt': 'https://hooks.slack.com/services/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',
-	'hospitality-experienceflows-service': 'https://hooks.slack.com/services/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'
+	'hospitality-experienceflows-service': 'https://hooks.slack.com/services/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',
+	'hospitality-dispatch-service': 'https://hooks.slack.com/services/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'
 }
