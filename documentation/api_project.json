@@ -1,0 +1,1 @@
+{  "name": "GitHub Slack Bot API",  "version": "1.0.0",  "description": "API for Github Slack Bot.",  "apidoc": "0.3.0",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "generator": {    "name": "apidoc",    "time": "2017-09-20T18:06:07.632Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}

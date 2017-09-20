@@ -1,0 +1,9 @@
+{
+  "name": "GitHub Slack Bot API",
+  "version": "1.0.0",
+  "description": "API for Github Slack Bot.",
+  "apidoc": {
+    "title": "GitHub Slack Bot",
+    "url" : "http://damp-springs-39574.herokuapp.com"
+  }
+}
